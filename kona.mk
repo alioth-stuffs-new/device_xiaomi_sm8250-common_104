@@ -374,13 +374,11 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.qti \
-    android.hardware.usb.gadget-service.qti
+    android.hardware.usb-service.qti
 
 PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
-    init.qcom.usb.sh \
-    usb_compositions.conf
+    init.qcom.usb.sh
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
